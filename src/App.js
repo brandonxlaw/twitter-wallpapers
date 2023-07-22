@@ -1,10 +1,10 @@
 import './App.css';
-// import Meteors from "@/components/magicui/meteors";
-// import ParticlesBackground from './components/ParticlesBackground';
+import ParticlesBackground from './components/particlesBackground';
 
 function App() {
   return (
     <div className="App">
+      <ParticlesBackground/>
       <div className="h-full grid grid-cols-1 content-center">
         <div id="tweetBox" className="flex mx-auto px-4 pt-3 w-[598px] border-solid border border-gray-300 bg-white drop-shadow-lg">
           <div id="tweetContent" className='flex'>
